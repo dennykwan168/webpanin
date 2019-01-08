@@ -1,0 +1,363 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.divide {
+  height: 300px;
+}
+
+hr {
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.mobile-break {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .mobile-break {
+    display: inherit;
+  }
+}
+
+.footer-row {
+  margin-top: 50px;
+  height: 150px;
+  padding: 10px;
+  background-color: white;
+}
+
+.footer-row h5 {
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+  -webkit-transition: color 0.4s ease-out;
+  transition: color 0.4s ease-out;
+}
+
+.footer-row h5:hover {
+  color: #304ffe;
+  cursor: pointer;
+}
+
+.footer-row .image-container {
+  padding: 90px 40px 25px 40px;
+}
+
+.footer-row .image-container #footer-logo {
+  width: 150px;
+}
+
+.footer-row .image-container #ojk-logo {
+  width: 100px;
+}
+
+.footer-row .image-container #copyright {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+.select-dropdown {
+  color: #304ffe;
+  font-weight: 600;
+}
+
+.select-wrapper input.select-dropdown:focus {
+  border-bottom: 1px solid #304ffe;
+}
+
+.dropdown-content li span {
+  color: #304ffe;
+  font-weight: 400;
+}
+
+.user-view {
+  height: 4rem;
+}
+
+.user-view .background {
+  padding: 0.5rem 2rem;
+}
+
+#menu-icon {
+  color: #304ffe;
+}
+
+nav .brand-logo {
+  padding: 8px 5px;
+}
+
+#wa-btn-container {
+  bottom: 9%;
+}
+
+.fixed-action-btn #wa-btn {
+  background-color: green;
+}
+
+.fixed-bottom {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  padding: 8px 15px;
+  z-index: 1000;
+}
+
+.fixed-bottom #bottom-btn {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #304ffe;
+  text-transform: none;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+/*----------------------------------------Home-------------------------------------------*/
+#row1 {
+  padding: 7% 0;
+}
+
+#row1 #button-container {
+  margin: 40px 0;
+}
+
+#row2 {
+  margin: 10px auto;
+}
+
+#row2 #subtext-layanan {
+  margin: 20px 0 50px 0;
+}
+
+#card-container {
+  height: 300px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #FFF), color-stop(50%, #F2F5F9));
+  background: linear-gradient(#FFF 50%, #F2F5F9 50%);
+  margin-bottom: 0;
+}
+
+#card-container .kartu-servis {
+  width: 80%;
+  background-color: #fff;
+  height: 300px;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin: 15px auto;
+  border-radius: 5px;
+}
+
+#card-container .kartu-servis::after {
+  opacity: 0;
+}
+
+#card-container .kartu-servis:hover {
+  cursor: pointer;
+  opacity: 1;
+  -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+#card-container .kartu-servis .servis-icon {
+  margin-top: 45px;
+}
+
+#btn-wrapper {
+  background-color: #F2F5F9;
+  margin-bottom: 0;
+}
+
+#btn-wrapper #tombol-servis {
+  margin: 50px 0;
+}
+
+#gradient-bg {
+  height: 100px;
+  background-color: #F2F5F9;
+  padding: 65px 0;
+}
+
+#gradient-bg hr {
+  margin: 0 auto;
+  width: 50px;
+  height: 2px;
+  background-color: #304ffe;
+  border: none;
+}
+
+#row3 {
+  height: 1300px;
+  margin-bottom: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#F2F5F9), to(#FFF));
+  background: linear-gradient(#F2F5F9, #FFF);
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 600px) {
+  #row3 {
+    height: 1200px;
+  }
+}
+
+@media (min-width: 992px) {
+  #row3 {
+    height: 750px;
+  }
+}
+
+#row3 h3 {
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  #row3 h3 {
+    font-size: 28px;
+  }
+}
+
+#row3 .langkah-container {
+  -webkit-filter: drop-shadow(0 22px 48px rgba(0, 0, 0, 0.1));
+          filter: drop-shadow(0 22px 48px rgba(0, 0, 0, 0.1));
+  padding: 0 15px;
+}
+
+@media (min-width: 600px) {
+  #row3 .langkah-container {
+    padding: 0 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  #row3 .langkah-container {
+    padding: 0;
+  }
+}
+
+#row3 .langkah-container .langkah-wrapper {
+  padding: 28px 28px;
+  height: 240px;
+  -webkit-transition: all 0.05s ease-out;
+  transition: all 0.05s ease-out;
+}
+
+#row3 .langkah-container .langkah-wrapper .btn-langkah {
+  border: solid 1px #304ffe !important;
+}
+
+#row3 .langkah-container .langkah-wrapper .btn-langkah:hover {
+  -webkit-filter: drop-shadow(0 3px 7px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(0 3px 7px rgba(0, 0, 0, 0.2));
+}
+
+/*-----------------------Mobile--------------------*/
+@media (max-width: 600px) {
+  h2 {
+    font-size: 35px;
+  }
+}
+
+/*-------------------------------------------------------------Mulai.html-------------------------------------------------------------*/
+.tabs .tab a {
+  color: grey;
+  /*Custom Text Color*/
+}
+
+.tabs .tab a.active {
+  color: #304ffe;
+  font-weight: 500;
+}
+
+.tabs .tab a:hover {
+  color: grey;
+  font-weight: 500;
+  /*Custom Color On Hover*/
+}
+
+.tabs .tab a:focus.active {
+  color: #304ffe;
+  /*Custom Text Color While Active*/
+  background-color: white;
+  /*Custom Background Color While Active*/
+}
+
+.tabs .indicator {
+  background-color: #304ffe;
+  /*Custom Color Of Indicator*/
+}
+
+.mulaisection {
+  height: 100%;
+  margin: 20px auto;
+}
+
+.mulaisection .content-container {
+  padding: 10px 1.8rem;
+}
+
+.mulaisection .num-container {
+  margin: 0 auto;
+  height: 5rem;
+  width: 5rem;
+  background-color: #304ffe;
+  border-radius: 50%;
+  padding: 1rem 0;
+}
+
+.mulaisection .num-container .num {
+  margin: 0 auto;
+  color: white;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.mulaisection .step-heading {
+  font-size: 2.3em;
+  font-weight: 500;
+}
+
+.mulaisection .step-desc {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.mulaisection .dokumen-container {
+  margin: 1rem auto;
+}
+
+.mulaisection .dokumen-container .dokumen-img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.mulaisection .dokumen-container #jempol {
+  width: 60%;
+}
+
+.mulaisection .dokumen-container .badge {
+  width: 50%;
+  margin: 0.5rem auto;
+}
+
+#mulaisection1, #mulaisectionrd1 {
+  margin-top: 50px;
+}
+
+/*-------------------------------------------------------------faq.html-------------------------------------------------------------*/
+.collapsible-header {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.collapsible-body {
+  text-align: justify;
+}
+
+.bank-logo {
+  padding: 10px 12px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,326 @@
+$break-small: 600px;
+$break-medium: 992px;
+@import "components/variables";
+
+//Global
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.divide {
+    height: 300px;
+}
+
+hr {
+    color: rgba(0,0,0,0.10);
+}
+
+.mobile-break {
+    display: none;
+    @media (max-width: $break-small) {
+        display: inherit;
+    }
+}
+
+//footer
+.footer-row {
+    margin-top: 50px;
+    height: 150px;
+    padding: 10px;
+    background-color: white;
+    h5 {
+        color: rgba(0,0,0,0.3);
+        font-weight: 700;
+        transition: color 0.4s ease-out;
+        &:hover {
+            color: $primary-color;
+            cursor: pointer;
+        }
+    }
+    .image-container {
+        padding: 90px 40px 25px 40px;
+        #footer-logo {
+            width: 150px;
+        }
+        #ojk-logo {
+            width: 100px;
+        }
+        #copyright {
+            margin-top: 0;
+            font-size: 12px;
+        }
+    }
+}
+
+//Option
+.select-dropdown {
+    color: $primary-color;
+    font-weight: 600;
+}
+
+.select-wrapper input.select-dropdown {
+    &:focus {
+        border-bottom: 1px solid $primary-color;
+    }
+}
+.dropdown-content{
+    li{
+        span{
+            color: $primary-color;
+            font-weight: 400;
+        }
+    }
+}
+
+
+//Navbar
+.user-view {
+    height: 4rem;
+    .background {
+        padding: 0.5rem 2rem;
+    }
+}
+
+#menu-icon {
+    color: $primary-color;
+}
+
+nav .brand-logo {
+    padding: 8px 5px;
+}
+
+#wa-btn-container {
+    bottom: 9%;
+}
+
+.fixed-action-btn {
+    #wa-btn {
+        background-color: green;
+    }
+}
+
+.fixed-bottom {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    padding: 8px 15px;
+    z-index: 1000;
+    #bottom-btn {
+        margin: 0 auto;
+        width: 100%;
+        background-color: $primary-color;
+        text-transform: none;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+}
+
+
+/*----------------------------------------Home-------------------------------------------*/
+#row1 {
+    padding: 7% 0;
+    #button-container {
+    margin: 40px 0;
+    }
+}
+
+#row2 {
+    margin: 10px auto;
+    #subtext-layanan {
+        margin: 20px 0 50px 0;
+    }
+}
+
+
+#card-container {
+    height: 300px;
+    background: linear-gradient(#FFF 50%, #F2F5F9 50%);
+    margin-bottom: 0;
+    .kartu-servis {
+        width: 80%;
+        background-color: #fff;
+        height: 300px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.10);
+        transition: all 0.3s ease-in-out;
+        margin: 15px auto;
+        border-radius: 5px;
+        &::after {
+            opacity: 0;
+        }
+        &:hover {
+            cursor: pointer;
+            opacity: 1;
+            transform: scale(1.05, 1.05);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+        }
+        .servis-icon {
+            margin-top: 45px;
+        }
+    }
+}
+
+#btn-wrapper {
+    background-color: #F2F5F9;
+    margin-bottom: 0;
+    #tombol-servis {
+        margin: 50px 0;
+    }
+}
+
+#gradient-bg {
+    height: 100px;
+    background-color: #F2F5F9;
+    padding: 65px 0;
+    hr {
+        margin: 0 auto;
+        width: 50px;
+        height: 2px;
+        background-color: $primary-color;
+        border: none;
+    }
+}
+
+#row3 {
+    height: 1300px;
+    margin-bottom: 0;
+    background: linear-gradient(#F2F5F9,#FFF);
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.10);
+    @media (min-width: $break-small) {
+        height: 1200px;
+    }
+    @media (min-width: $break-medium) {
+        height: 750px;
+    }
+    h3 {
+        margin: 0 auto;
+        line-height: 1.5;
+        @media (max-width: $break-small) {
+            font-size: 28px;
+        }
+    }
+    .langkah-container {
+        filter: drop-shadow(0 22px 48px rgba(0,0,0,0.10));
+        padding: 0 15px;
+        @media (min-width: $break-small) {
+            padding: 0 30px;
+        }
+        @media (min-width: $break-medium) {
+            padding: 0;
+        }
+        .langkah-wrapper {
+            padding: 28px 28px;
+            height: 240px;
+            transition: all 0.05s ease-out;
+            .btn-langkah {
+                border: solid 1px $primary-color !important;
+                &:hover {
+                    filter: drop-shadow(0 3px 7px rgba(0,0,0,0.2));
+                }
+            }
+        }
+    }
+}
+
+/*-----------------------Mobile--------------------*/
+
+@media (max-width: $break-small) {
+    h2 {
+        font-size: 35px;
+    }
+}
+
+
+
+
+/*-------------------------------------------------------------Mulai.html-------------------------------------------------------------*/
+.tabs .tab a {
+    color: grey;
+    /*Custom Text Color*/
+  }
+
+.tabs .tab a.active {
+    color: $primary-color;
+    font-weight: 500;
+}
+
+.tabs .tab a:hover {
+color:grey;
+font-weight: 500;
+/*Custom Color On Hover*/
+}
+
+.tabs .tab a:focus.active {
+color:$primary-color;
+/*Custom Text Color While Active*/
+background-color: white;
+/*Custom Background Color While Active*/
+}
+
+.tabs .indicator {
+background-color:$primary-color;
+/*Custom Color Of Indicator*/
+}
+
+
+.mulaisection {
+    height: 100%;
+    margin: 20px auto;
+    .content-container {
+        padding: 10px 1.8rem;
+    }
+    .num-container {
+        margin: 0 auto;
+        height: 5rem;
+        width: 5rem;
+        background-color: $primary-color;
+        border-radius: 50%;
+        padding: 1rem 0;
+        .num {
+            margin: 0 auto;
+            color: white;
+            font-size: 2em;
+            font-weight: 500;
+        }
+    }
+    .step-heading {
+        font-size: 2.3em;
+        font-weight: 500;
+    }
+    .step-desc {
+        font-size: 1.3rem;
+        font-weight: 300;
+    }
+    .dokumen-container {
+        margin: 1rem auto;
+        .dokumen-img {
+            width: 80%;
+            margin: 0 auto;
+        }
+        #jempol {
+            width: 60%;
+        }
+        .badge {
+            width: 50%;
+            margin: 0.5rem auto;
+        }
+    }
+}
+
+#mulaisection1, #mulaisectionrd1 {
+    margin-top: 50px;
+}
+
+/*-------------------------------------------------------------faq.html-------------------------------------------------------------*/
+
+.collapsible-header {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.collapsible-body {
+    text-align: justify;
+}
+
+.bank-logo {
+    padding: 10px 12px;
+}

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="sass/materialize.css">
+    <link rel="stylesheet" href="sass/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Bijak Investasi</title>
+</head>
+
+<body>
+    <!-------------------------------------------------------------Menu----------------------------------------------------------------------->
+    <div>
+        <nav class="z-depth-0">
+            <div class="nav-wrapper white">
+                <a href="index.html" class="brand-logo">
+                    <img style="width:200px" src="pic/logo.jpg" alt="">
+                </a>
+                <a href="" data-target="mobile-menu" class="sidenav-trigger right"><i id="menu-icon" class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="waves-effect black-text" href="mulai.html">Belajar investasi</a></li>
+                    <li><a class="waves-effect dropdown-trigger black-text" href="#" data-target="dm-produk">Produk<i
+                                class="material-icons grey-text right">arrow_drop_down</i></a></li>
+                    <li><a class="black-text" href="faq.html">FAQ</a></li>
+                    <li><a class="black-text" href="#">Hubungi kami</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul id="dm-produk" class="dropdown-content">
+            <li><a class="black-text" href="#">Saham</a></li>
+            <li><a class="black-text" href="#">Reksa Dana</a></li>
+            <li><a class="black-text" href="#">Edukasi & Pelatihan</a></li>
+        </ul>
+    </div>
+
+    <ul class="sidenav" id="mobile-menu">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img style="width:200px" src="pic/logo.jpg" alt="" id="side-logo">
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="sidenav-item" href="mulai.html">Belajar investasi</a></li>
+
+        <li>
+            <ul class="collapsible collapsible-accordion">
+                <li><a style="padding: 0 31px" class="collapsible-header waves-effect sidenav-item tab-index-1">Produk<i
+                            class="material-icons grey-text right">arrow_drop_down</i></a>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li><a style="padding-left: 50px" href="#">Saham</a></li>
+                            <li><a style="padding-left: 50px" href="#">Reksadana</a></li>
+                            <li><a style="padding-left: 50px" href="#">Edukasi & Pelatihan</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+
+        <li><a class="sidenav-item" href="faq.html">FAQ</a></li>
+        <li><a class="sidenav-item" href="faq.html">Hubungi kami</a></li>
+        <div class="row">
+            <div class="col s4"></div>
+            <div class="col s4"></div>
+            <div class="col s4"></div>
+        </div>
+    </ul>
+
+    <!-------------------------------------------------------------Section 1----------------------------------------------------------------------->
+    <div class="row" id="row1">
+        <div class="container">
+            <div class="col s12 center-align">
+                <h2 style="font-weight:300;">Kembangkan uang anda dengan berinvestasi di
+                    <br><span class="extrabold primary-text">Saham</span> atau <span class="extrabold primary-text">Reksa
+                        Dana</span>
+                </h2>
+                <h5 class="light" style="margin:30px 0">Dengan berinvestasi biarkan <span class="bold primary-text">uang
+                        yang bekerja untuk anda</span></h5>
+                <div class="col s12" id="button-container">
+                    <a href="mulai.html" class="waves-effect waves-light btn-large bold">Mulai investasi</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="row2">
+        <div class="col s12 center-align">
+            <h2 class="bold">Layanan Kami</h2>
+            <h5 class="light" id="subtext-layanan">Dengan <span class="bold">pengalaman lebih dari 25 tahun</span>
+                kami memahami apa yang dibutuhkan oleh nasabah kami.</h5>
+        </div>
+    </div>
+
+
+    <div class="row" id="card-container">
+        <div class="col s12 l4 center-align">
+            <div class="kartu-servis">
+                <img class="servis-icon" src="pic/stock.png">
+                <h4 class="bold primary-text">Saham</h4>
+            </div>
+        </div>
+        <div class="col s12 l4 center-align">
+            <div class="kartu-servis">
+                <img class="servis-icon" src="pic/rd.png">
+                <h4 class="bold primary-text">Reksa Dana</h4>
+            </div>
+        </div>
+        <div class="col s12 l4 center-align">
+            <div class="kartu-servis">
+                <img class="servis-icon" src="pic/idea.png">
+                <h4 class="bold primary-text">Edukasi & Pelatihan</h4>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="btn-wrapper">
+        <div class="col s12 center-align">
+            <a id="tombol-servis" href="#" class="btn-large waves-effect waves-light regular">Lebih Detail tentang
+                Servis Kami <i class="large material-icons right">keyboard_arrow_right</i> </a>
+        </div>
+    </div>
+
+    <div class="divide" id="gradient-bg">
+        <hr>
+    </div>
+
+    <div class="row center-align" id="row3">
+        <h3>Sudah siap untuk <br class="mobile-break"><span class="bold">mulai berinvestasi?</span></h3>
+        <h3>Cukup ikuti 4 langkah di bawah ini...</h3>
+        <div style="height:60px;"></div>
+
+        <div class="langkah-container">
+            <div class="col s12 l4 push-l2 langkah-wrapper white">
+                <h4 class="primary-text bold">Langkah #1</h4>
+                <p>Jika anda orang yang belum pernah berinvestasi di pasar modal, bacalah apa saja yang diperlukan
+                    untuk mulai berinvestasi di pasar modal.</p>
+                <a href="#" class="btn-langkah btn-flat btn-large waves-effect waves-blue white"><span class="bold primary-text">MULAI
+                        INVESTASI</p></a>
+            </div>
+            <div class="col s12 l4 offset-l2 langkah-wrapper white">
+                <h4 class="primary-text bold">Langkah #2</h4>
+                <p>Jika anda belum mempunyai rekening untuk berinvestasi, cek panduan lengkap kami untuk pembukaan
+                    rekening investor.</p>
+                <a href="#" class="btn-langkah btn-flat btn-large waves-effect waves-blue white"><span class="bold primary-text">PEMBUKAAN
+                        REKENING</p></a>
+            </div>
+            <div class="col s12 l4 push-l2 langkah-wrapper white">
+                <h4 class="primary-text bold">Langkah #3</h4>
+                <p>Tingkatkan wawasan anda tentang investasi di pasar modal dengan membaca blog kami.</p>
+                <a href="#" class="btn-langkah btn-flat btn-large waves-effect waves-blue white"><span class="bold primary-text">BACA
+                        BLOG</p></a>
+            </div>
+            <div class="col s12 l4 offset-l2 langkah-wrapper white">
+                <h4 class="primary-text bold">Langkah #4</h4>
+                <p>Ikuti media sosial kami untuk konten menarik mengenai perencanaan keuangan dan investasi.</p>
+                <a href="#" class="btn-langkah btn-flat btn-large waves-effect waves-blue white"><span class="bold primary-text">MULAI
+                        INVESTASI</p></a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-----------------------------------------------Footer---------------------------------------------------------->
+    <div class="row center-align footer-row">
+        <div class="container">
+                <div class="col s12 l2"><h5>Home</h5></div>
+                <div class="col s12 l2"><h5>Tentang kami</h5></div>
+                <div class="col s12 l2"><h5>Blog</h5></div>
+                <div class="col s12 l2"><h5>Produk</h5></div>
+                <div class="col s12 l2"><h5>FAQ</h5></div>
+                <div class="col s12 l2"><h5>Kontak</h5></div>
+        </div>
+
+        <div class="clearfix show-on-small"></div>
+
+        <div class="image-container">
+            <div class="col s6 m4 l2 left left-align hide-on-small-only">
+                <p id="copyright">Agen Penjual</p>
+                <img src="pic/logo-paninsekuritas.jpg" id="footer-logo">
+            </div>
+            <div class="col s6 m4 l2 left left-align hide-on-small-only">
+                <p id="copyright">Diawasi oleh</p>
+                <img src="pic/logo-ojk.jpg" id="ojk-logo">
+            </div>
+
+            <div class="col s12 m4 l2 right right-align hide-on-small-only">
+                <img src="pic/logo.jpg" id="footer-logo">
+                <p id="copyright">&copy 2019. Bijak Investasi</p>
+            </div>
+            <div class="col s6 center-align hide-on-med-and-up">
+                <p id="copyright">Agen Penjual</p>
+                <img src="pic/logo-paninsekuritas.jpg" id="footer-logo">
+            </div>
+            <div class="col s6 center-align hide-on-med-and-up">
+                <p id="copyright">Diawasi oleh</p>
+                <img src="pic/logo-ojk.jpg" id="ojk-logo">
+            </div>
+
+            <div class="col s12 center-align hide-on-med-and-up">
+                <img src="pic/logo.jpg" id="footer-logo">
+                <p id="copyright">&copy 2019. Bijak Investasi</p>
+            </div>
+            <div class="clearfix hide-on-small-only"></div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            //init sidenav
+            $('.sidenav').sidenav({
+                edge: 'right'
+            });
+
+            $('.dropdown-trigger').dropdown({
+                coverTrigger: false,
+                hover: true,
+                constrainWidth: false
+            });
+
+            $('select').formSelect();
+
+            //init menu dropdown
+            $('.collapsible').collapsible();
+
+        });
+    </script>
+
+</body>
+
+</html>
