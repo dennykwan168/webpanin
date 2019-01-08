@@ -2679,7 +2679,7 @@ a {
 blockquote {
   margin: 20px 0;
   padding-left: 1.5rem;
-  border-left: 5px solid #304ffe;
+  border-left: 5px solid #0069FF;
 }
 
 i {
@@ -2739,7 +2739,7 @@ video.responsive-video {
 }
 
 .pagination li.active {
-  background-color: #304ffe;
+  background-color: #0069FF;
 }
 
 .pagination li.disabled a {
@@ -2938,7 +2938,7 @@ ul.staggered-list li {
 .page-footer {
   padding-top: 20px;
   color: #fff;
-  background-color: #304ffe;
+  background-color: #0069FF;
 }
 
 .page-footer .footer-copyright {
@@ -3127,7 +3127,7 @@ td, th {
 }
 
 .collection .collection-item.active {
-  background-color: #304ffe;
+  background-color: #0069FF;
   color: white;
 }
 
@@ -3139,7 +3139,7 @@ td, th {
   display: block;
   -webkit-transition: .25s;
   transition: .25s;
-  color: #304ffe;
+  color: #0069FF;
 }
 
 .collection a.collection-item:not(.active):hover {
@@ -3162,7 +3162,7 @@ td, th {
 
 .secondary-content {
   float: right;
-  color: #304ffe;
+  color: #0069FF;
 }
 
 .collapsible .collection {
@@ -3190,7 +3190,7 @@ td, th {
   height: 4px;
   display: block;
   width: 100%;
-  background-color: #fbfcff;
+  background-color: #cce1ff;
   border-radius: 2px;
   margin: 0.5rem 0 1rem 0;
   overflow: hidden;
@@ -3201,13 +3201,13 @@ td, th {
   top: 0;
   left: 0;
   bottom: 0;
-  background-color: #304ffe;
+  background-color: #0069FF;
   -webkit-transition: width .3s linear;
   transition: width .3s linear;
 }
 
 .progress .indeterminate {
-  background-color: #304ffe;
+  background-color: #0069FF;
 }
 
 .progress .indeterminate:before {
@@ -3370,7 +3370,7 @@ span.badge.new {
   font-weight: 300;
   font-size: 0.8rem;
   color: #fff;
-  background-color: #304ffe;
+  background-color: #0069FF;
   border-radius: 2px;
 }
 
@@ -4259,7 +4259,7 @@ table span.badge {
 
 nav {
   color: #fff;
-  background-color: #304ffe;
+  background-color: #0069FF;
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -4711,7 +4711,7 @@ small {
 }
 
 .primary-text {
-  color: #304ffe;
+  color: #0069FF;
 }
 
 .scale-transition {
@@ -5069,7 +5069,7 @@ small {
 }
 
 .tabs .tab a {
-  color: rgba(48, 79, 254, 0.7);
+  color: rgba(0, 105, 255, 0.7);
   display: block;
   width: 100%;
   height: 100%;
@@ -5082,18 +5082,18 @@ small {
 }
 
 .tabs .tab a:focus, .tabs .tab a:focus.active {
-  background-color: rgba(124, 144, 254, 0.2);
+  background-color: rgba(77, 150, 255, 0.2);
   outline: none;
 }
 
 .tabs .tab a:hover, .tabs .tab a.active {
   background-color: transparent;
-  color: #304ffe;
+  color: #0069FF;
 }
 
 .tabs .tab.disabled a,
 .tabs .tab.disabled a:hover {
-  color: rgba(48, 79, 254, 0.4);
+  color: rgba(0, 105, 255, 0.4);
   cursor: default;
 }
 
@@ -5101,7 +5101,7 @@ small {
   position: absolute;
   bottom: 0;
   height: 2px;
-  background-color: #7c90fe;
+  background-color: #4d96ff;
   will-change: left, right;
 }
 
@@ -5238,13 +5238,13 @@ small {
 
 .btn:focus, .btn-large:focus, .btn-small:focus,
 .btn-floating:focus {
-  background-color: #0127fa;
+  background-color: #0054cc;
 }
 
 .btn, .btn-large, .btn-small {
   text-decoration: none;
   color: #fff;
-  background-color: #304ffe;
+  background-color: #0069FF;
   text-align: center;
   letter-spacing: .5px;
   -webkit-transition: background-color .2s ease-out;
@@ -5253,7 +5253,7 @@ small {
 }
 
 .btn:hover, .btn-large:hover, .btn-small:hover {
-  background-color: #4965fe;
+  background-color: #1a78ff;
 }
 
 .btn-floating {
@@ -5266,7 +5266,7 @@ small {
   height: 40px;
   line-height: 40px;
   padding: 0;
-  background-color: #304ffe;
+  background-color: #0069FF;
   border-radius: 50%;
   -webkit-transition: background-color .3s;
   transition: background-color .3s;
@@ -5275,7 +5275,7 @@ small {
 }
 
 .btn-floating:hover {
-  background-color: #304ffe;
+  background-color: #0069FF;
 }
 
 .btn-floating:before {
@@ -5474,7 +5474,7 @@ button.btn-floating {
   z-index: -1;
   width: 40px;
   height: 40px;
-  background-color: #304ffe;
+  background-color: #0069FF;
   border-radius: 50%;
   -webkit-transform: scale(0);
           transform: scale(0);
@@ -5574,7 +5574,7 @@ button.btn-floating {
 
 .dropdown-content li > a, .dropdown-content li > span {
   font-size: 16px;
-  color: #304ffe;
+  color: #0069FF;
   display: block;
   line-height: 22px;
   padding: 14px 16px;
@@ -6079,12 +6079,12 @@ body.keyboard-focused .dropdown-content li:focus {
 }
 
 select:focus {
-  outline: 1px solid white;
+  outline: 1px solid #f0f6ff;
 }
 
 button:focus {
   outline: none;
-  background-color: #4460fe;
+  background-color: #1475ff;
 }
 
 label {
@@ -6213,9 +6213,9 @@ input[type=tel]:not(.browser-default):focus:not([readonly]),
 input[type=number]:not(.browser-default):focus:not([readonly]),
 input[type=search]:not(.browser-default):focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-  border-bottom: 1px solid #304ffe;
-  -webkit-box-shadow: 0 1px 0 0 #304ffe;
-          box-shadow: 0 1px 0 0 #304ffe;
+  border-bottom: 1px solid #0069FF;
+  -webkit-box-shadow: 0 1px 0 0 #0069FF;
+          box-shadow: 0 1px 0 0 #0069FF;
 }
 
 input:not([type]):focus:not([readonly]) + label,
@@ -6231,7 +6231,7 @@ input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
 input[type=number]:not(.browser-default):focus:not([readonly]) + label,
 input[type=search]:not(.browser-default):focus:not([readonly]) + label,
 textarea.materialize-textarea:focus:not([readonly]) + label {
-  color: #304ffe;
+  color: #0069FF;
 }
 
 input:not([type]):focus.valid ~ label,
@@ -6573,7 +6573,7 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
 }
 
 .input-field .prefix.active {
-  color: #304ffe;
+  color: #0069FF;
 }
 
 .input-field .prefix ~ input,
@@ -6770,12 +6770,12 @@ textarea.materialize-textarea {
 [type="radio"]:checked + span:after,
 [type="radio"].with-gap:checked + span:before,
 [type="radio"].with-gap:checked + span:after {
-  border: 2px solid #304ffe;
+  border: 2px solid #0069FF;
 }
 
 [type="radio"]:checked + span:after,
 [type="radio"].with-gap:checked + span:after {
-  background-color: #304ffe;
+  background-color: #0069FF;
 }
 
 [type="radio"]:checked + span:after {
@@ -6897,8 +6897,8 @@ textarea.materialize-textarea {
   height: 22px;
   border-top: 2px solid transparent;
   border-left: 2px solid transparent;
-  border-right: 2px solid #304ffe;
-  border-bottom: 2px solid #304ffe;
+  border-right: 2px solid #0069FF;
+  border-bottom: 2px solid #0069FF;
   -webkit-transform: rotate(40deg);
           transform: rotate(40deg);
   -webkit-backface-visibility: hidden;
@@ -6920,7 +6920,7 @@ textarea.materialize-textarea {
   height: 22px;
   border-top: none;
   border-left: none;
-  border-right: 2px solid #304ffe;
+  border-right: 2px solid #0069FF;
   border-bottom: none;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
@@ -6990,8 +6990,8 @@ textarea.materialize-textarea {
   top: 0;
   width: 20px;
   height: 20px;
-  border: 2px solid #304ffe;
-  background-color: #304ffe;
+  border: 2px solid #0069FF;
+  background-color: #0069FF;
   z-index: 0;
 }
 
@@ -7003,8 +7003,8 @@ textarea.materialize-textarea {
 
 [type="checkbox"].filled-in.tabbed:checked:focus + span:not(.lever):after {
   border-radius: 2px;
-  background-color: #304ffe;
-  border-color: #304ffe;
+  background-color: #0069FF;
+  border-color: #0069FF;
 }
 
 [type="checkbox"].filled-in:disabled:not(:checked) + span:not(.lever):before {
@@ -7048,7 +7048,7 @@ textarea.materialize-textarea {
 }
 
 .switch label input[type=checkbox]:checked + .lever {
-  background-color: #b9c2f5;
+  background-color: #8fb7ef;
 }
 
 .switch label input[type=checkbox]:checked + .lever:before, .switch label input[type=checkbox]:checked + .lever:after {
@@ -7056,7 +7056,7 @@ textarea.materialize-textarea {
 }
 
 .switch label input[type=checkbox]:checked + .lever:after {
-  background-color: #304ffe;
+  background-color: #0069FF;
 }
 
 .switch label .lever {
@@ -7090,7 +7090,7 @@ textarea.materialize-textarea {
 }
 
 .switch label .lever:before {
-  background-color: rgba(48, 79, 254, 0.15);
+  background-color: rgba(0, 105, 255, 0.15);
 }
 
 .switch label .lever:after {
@@ -7103,7 +7103,7 @@ input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
 input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
   -webkit-transform: scale(2.4);
           transform: scale(2.4);
-  background-color: rgba(48, 79, 254, 0.15);
+  background-color: rgba(0, 105, 255, 0.15);
 }
 
 input[type=checkbox]:not(:disabled) ~ .lever:active:before,
@@ -7178,7 +7178,7 @@ select {
 }
 
 .select-wrapper input.select-dropdown:focus {
-  border-bottom: 1px solid #304ffe;
+  border-bottom: 1px solid #0069FF;
 }
 
 .select-wrapper .caret {
@@ -7351,7 +7351,7 @@ input[type=range] + .thumb {
   height: 0;
   width: 0;
   border-radius: 50%;
-  background-color: #304ffe;
+  background-color: #0069FF;
   margin-left: 7px;
   -webkit-transform-origin: 50% 50%;
           transform-origin: 50% 50%;
@@ -7363,7 +7363,7 @@ input[type=range] + .thumb .value {
   display: block;
   width: 30px;
   text-align: center;
-  color: #304ffe;
+  color: #0069FF;
   font-size: 0;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
@@ -7395,21 +7395,21 @@ input[type=range]::-webkit-slider-thumb {
   height: 14px;
   width: 14px;
   border-radius: 50%;
-  background: #304ffe;
+  background: #0069FF;
   -webkit-transition: -webkit-box-shadow .3s;
   transition: -webkit-box-shadow .3s;
   transition: box-shadow .3s;
   transition: box-shadow .3s, -webkit-box-shadow .3s;
   -webkit-appearance: none;
-  background-color: #304ffe;
+  background-color: #0069FF;
   -webkit-transform-origin: 50% 50%;
           transform-origin: 50% 50%;
   margin: -5px 0 0 0;
 }
 
 .keyboard-focused input[type=range]:focus:not(.active)::-webkit-slider-thumb {
-  -webkit-box-shadow: 0 0 0 10px rgba(48, 79, 254, 0.26);
-          box-shadow: 0 0 0 10px rgba(48, 79, 254, 0.26);
+  -webkit-box-shadow: 0 0 0 10px rgba(0, 105, 255, 0.26);
+          box-shadow: 0 0 0 10px rgba(0, 105, 255, 0.26);
 }
 
 input[type=range] {
@@ -7433,7 +7433,7 @@ input[type=range]::-moz-range-thumb {
   height: 14px;
   width: 14px;
   border-radius: 50%;
-  background: #304ffe;
+  background: #0069FF;
   -webkit-transition: -webkit-box-shadow .3s;
   transition: -webkit-box-shadow .3s;
   transition: box-shadow .3s;
@@ -7447,7 +7447,7 @@ input[type=range]:-moz-focusring {
 }
 
 .keyboard-focused input[type=range]:focus:not(.active)::-moz-range-thumb {
-  box-shadow: 0 0 0 10px rgba(48, 79, 254, 0.26);
+  box-shadow: 0 0 0 10px rgba(0, 105, 255, 0.26);
 }
 
 input[type=range]::-ms-track {
@@ -7472,7 +7472,7 @@ input[type=range]::-ms-thumb {
   height: 14px;
   width: 14px;
   border-radius: 50%;
-  background: #304ffe;
+  background: #0069FF;
   -webkit-transition: -webkit-box-shadow .3s;
   transition: -webkit-box-shadow .3s;
   transition: box-shadow .3s;
@@ -7480,7 +7480,7 @@ input[type=range]::-ms-thumb {
 }
 
 .keyboard-focused input[type=range]:focus:not(.active)::-ms-thumb {
-  box-shadow: 0 0 0 10px rgba(48, 79, 254, 0.26);
+  box-shadow: 0 0 0 10px rgba(0, 105, 255, 0.26);
 }
 
 /***************
@@ -7508,13 +7508,13 @@ input[type=range]::-ms-thumb {
 .table-of-contents a:hover {
   color: #a8a8a8;
   padding-left: 15px;
-  border-left: 1px solid #304ffe;
+  border-left: 1px solid #0069FF;
 }
 
 .table-of-contents a.active {
   font-weight: 500;
   padding-left: 14px;
-  border-left: 2px solid #304ffe;
+  border-left: 2px solid #0069FF;
 }
 
 .sidenav {
@@ -7588,11 +7588,11 @@ input[type=range]::-ms-thumb {
 }
 
 .sidenav li > a.btn:hover, .sidenav li > a.btn-large:hover, .sidenav li > a.btn-small:hover, .sidenav li > a.btn-large:hover {
-  background-color: #4965fe;
+  background-color: #1a78ff;
 }
 
 .sidenav li > a.btn-floating:hover {
-  background-color: #304ffe;
+  background-color: #0069FF;
 }
 
 .sidenav li > a > i,
@@ -7716,7 +7716,7 @@ input[type=range]::-ms-thumb {
 
 .sidenav .collapsible-body > ul:not(.collapsible) > li.active,
 .sidenav.sidenav-fixed .collapsible-body > ul:not(.collapsible) > li.active {
-  background-color: #304ffe;
+  background-color: #0069FF;
 }
 
 .sidenav .collapsible-body > ul:not(.collapsible) > li.active a,
@@ -7806,7 +7806,7 @@ input[type=range]::-ms-thumb {
   width: 100%;
   height: 100%;
   opacity: 0;
-  border-color: #304ffe;
+  border-color: #0069FF;
 }
 
 .spinner-blue,
@@ -8484,7 +8484,7 @@ input[type=range]::-ms-thumb {
   position: absolute;
   font-size: 1rem;
   border-radius: 50%;
-  background-color: #304ffe;
+  background-color: #0069FF;
   -webkit-box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.14), 0 10px 50px 0 rgba(0, 0, 0, 0.12), 0 30px 10px -20px rgba(0, 0, 0, 0.2);
           box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.14), 0 10px 50px 0 rgba(0, 0, 0, 0.12), 0 30px 10px -20px rgba(0, 0, 0, 0.2);
   width: 100%;
@@ -8686,7 +8686,7 @@ input[type=range]::-ms-thumb {
   -webkit-box-flex: 1;
       -ms-flex: 1 auto;
           flex: 1 auto;
-  background-color: #304ffe;
+  background-color: #0069FF;
   color: #fff;
   padding: 20px 22px;
   font-weight: 500;
@@ -8743,11 +8743,11 @@ input[type=range]::-ms-thumb {
 }
 
 .datepicker-table td.is-today {
-  color: #304ffe;
+  color: #0069FF;
 }
 
 .datepicker-table td.is-selected {
-  background-color: #304ffe;
+  background-color: #0069FF;
   color: #fff;
 }
 
@@ -8769,7 +8769,7 @@ input[type=range]::-ms-thumb {
 }
 
 .datepicker-day-button:focus {
-  background-color: rgba(53, 83, 249, 0.25);
+  background-color: rgba(6, 106, 249, 0.25);
 }
 
 /* Footer */
@@ -8789,7 +8789,7 @@ input[type=range]::-ms-thumb {
 .datepicker-clear,
 .datepicker-today,
 .datepicker-done {
-  color: #304ffe;
+  color: #0069FF;
   padding: 0 1rem;
 }
 
@@ -8849,7 +8849,7 @@ input[type=range]::-ms-thumb {
   -webkit-box-flex: 1;
       -ms-flex: 1 auto;
           flex: 1 auto;
-  background-color: #304ffe;
+  background-color: #0069FF;
   padding: 10px;
   font-weight: 300;
 }
@@ -8939,7 +8939,7 @@ input[type=range]::-ms-thumb {
 
 .timepicker-tick.active,
 .timepicker-tick:hover {
-  background-color: rgba(48, 79, 254, 0.25);
+  background-color: rgba(0, 105, 255, 0.25);
 }
 
 .timepicker-dial {
@@ -8969,7 +8969,7 @@ input[type=range]::-ms-thumb {
 }
 
 .timepicker-canvas line {
-  stroke: #304ffe;
+  stroke: #0069FF;
   stroke-width: 4;
   stroke-linecap: round;
 }
@@ -8980,12 +8980,12 @@ input[type=range]::-ms-thumb {
 
 .timepicker-canvas-bearing {
   stroke: none;
-  fill: #304ffe;
+  fill: #0069FF;
 }
 
 .timepicker-canvas-bg {
   stroke: none;
-  fill: #304ffe;
+  fill: #0069FF;
 }
 
 /* Footer */
@@ -9005,7 +9005,7 @@ input[type=range]::-ms-thumb {
 }
 
 .timepicker-close {
-  color: #304ffe;
+  color: #0069FF;
 }
 
 .timepicker-clear,
