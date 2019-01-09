@@ -20,6 +20,16 @@ hr {
   }
 }
 
+.nav-wrapper {
+  padding: 0;
+}
+
+@media (min-width: 600px) {
+  .nav-wrapper {
+    padding: 0 50px;
+  }
+}
+
 .footer-row {
   margin-top: 50px;
   height: 150px;
@@ -35,7 +45,7 @@ hr {
 }
 
 .footer-row h5:hover {
-  color: #304ffe;
+  color: #0069FF;
   cursor: pointer;
 }
 
@@ -57,16 +67,16 @@ hr {
 }
 
 .select-dropdown {
-  color: #304ffe;
+  color: #0069FF;
   font-weight: 600;
 }
 
 .select-wrapper input.select-dropdown:focus {
-  border-bottom: 1px solid #304ffe;
+  border-bottom: 1px solid #0069FF;
 }
 
 .dropdown-content li span {
-  color: #304ffe;
+  color: #0069FF;
   font-weight: 400;
 }
 
@@ -79,7 +89,7 @@ hr {
 }
 
 #menu-icon {
-  color: #304ffe;
+  color: #0069FF;
 }
 
 nav .brand-logo {
@@ -106,7 +116,7 @@ nav .brand-logo {
 .fixed-bottom #bottom-btn {
   margin: 0 auto;
   width: 100%;
-  background-color: #304ffe;
+  background-color: #0069FF;
   text-transform: none;
   font-size: 15px;
   border-radius: 5px;
@@ -119,6 +129,76 @@ nav .brand-logo {
 
 #row1 #button-container {
   margin: 40px 0;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 1000;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+  visibility: hidden;
+  opacity: 0;
+  padding: 20px 0 50px 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.overlay .close {
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+  font-size: 100px;
+  font-weight: lighter;
+  color: white;
+}
+
+.overlay .close:hover {
+  color: #0069FF;
+}
+
+.overlay .kartu-servis {
+  width: 80%;
+  height: 300px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin: 50px 15px 15px 15px;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .overlay .kartu-servis {
+    height: 150px;
+    margin: 0 auto;
+  }
+}
+
+.overlay .kartu-servis::after {
+  opacity: 0;
+}
+
+.overlay .kartu-servis:hover {
+  cursor: default;
+  -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
+}
+
+.overlay .kartu-servis h1 {
+  margin-top: 0;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+.overlay .kartu-servis h1:hover {
+  font-weight: 700;
+  cursor: pointer;
 }
 
 #row2 {
@@ -146,6 +226,7 @@ nav .brand-logo {
   transition: all 0.3s ease-in-out;
   margin: 15px auto;
   border-radius: 5px;
+  padding: 20px;
 }
 
 #card-container .kartu-servis::after {
@@ -184,7 +265,7 @@ nav .brand-logo {
   margin: 0 auto;
   width: 50px;
   height: 2px;
-  background-color: #304ffe;
+  background-color: #0069FF;
   border: none;
 }
 
@@ -246,12 +327,15 @@ nav .brand-logo {
 }
 
 #row3 .langkah-container .langkah-wrapper .btn-langkah {
-  border: solid 1px #304ffe !important;
+  border: solid 1px #0069FF !important;
+  color: #0069FF;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 #row3 .langkah-container .langkah-wrapper .btn-langkah:hover {
-  -webkit-filter: drop-shadow(0 3px 7px rgba(0, 0, 0, 0.2));
-          filter: drop-shadow(0 3px 7px rgba(0, 0, 0, 0.2));
+  color: white;
+  background-color: #0069FF;
 }
 
 /*-----------------------Mobile--------------------*/
@@ -261,6 +345,57 @@ nav .brand-logo {
   }
 }
 
+/*-----------------------------------------------------------Produk.html---------------------------------------------------------------*/
+.product-image {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.subtext-produk {
+  line-height: 1.8;
+}
+
+.btn-product {
+  margin: 30px 0;
+  color: #0069FF;
+  border: 1px solid #0069FF !important;
+  border-radius: 5px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-product:hover {
+  color: white;
+}
+
+#btn-download {
+  color: white;
+  margin-left: 25px;
+}
+
+.dl-store {
+  width: 180px;
+}
+
+#product-row-container {
+  margin-bottom: 0;
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-wrapper {
+  height: 500px;
+  margin: 100px 0;
+}
+
+.r-product-wrapper {
+  padding-right: 160px !important;
+}
+
+.l-product-wrapper {
+  padding-left: 160px !important;
+}
+
 /*-------------------------------------------------------------Mulai.html-------------------------------------------------------------*/
 .tabs .tab a {
   color: grey;
@@ -268,7 +403,7 @@ nav .brand-logo {
 }
 
 .tabs .tab a.active {
-  color: #304ffe;
+  color: #0069FF;
   font-weight: 500;
 }
 
@@ -279,14 +414,14 @@ nav .brand-logo {
 }
 
 .tabs .tab a:focus.active {
-  color: #304ffe;
+  color: #0069FF;
   /*Custom Text Color While Active*/
   background-color: white;
   /*Custom Background Color While Active*/
 }
 
 .tabs .indicator {
-  background-color: #304ffe;
+  background-color: #0069FF;
   /*Custom Color Of Indicator*/
 }
 
@@ -303,7 +438,7 @@ nav .brand-logo {
   margin: 0 auto;
   height: 5rem;
   width: 5rem;
-  background-color: #304ffe;
+  background-color: #0069FF;
   border-radius: 50%;
   padding: 1rem 0;
 }

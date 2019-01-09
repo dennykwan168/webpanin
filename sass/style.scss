@@ -22,6 +22,13 @@ hr {
     }
 }
 
+.nav-wrapper {
+    padding: 0;
+    @media (min-width: $break-small) {
+        padding: 0 50px;
+    }
+}
+
 //footer
 .footer-row {
     margin-top: 50px;
@@ -125,6 +132,63 @@ nav .brand-logo {
     }
 }
 
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1000;
+    transition: all 500ms;
+    visibility: hidden;
+    opacity: 0;
+    padding: 20px 0 50px 0;
+    &:target {
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .close {
+        transition: all 200ms;
+        font-size: 100px;
+        font-weight: lighter;
+        color: white;
+        &:hover {
+            color: $primary-color;
+        }
+      }
+      .kartu-servis {
+        width: 80%;
+        height: 300px;
+        transition: all 0.3s ease-in-out;
+        margin: 50px 15px 15px 15px;
+        padding: 20px;
+        @media (max-width: $break-small) {
+            height: 150px;
+            margin: 0 auto;
+        }
+        &::after {
+            opacity: 0;
+        }
+        &:hover {
+            cursor: default;
+            transform: scale(1.05, 1.05);
+        }
+        h1 {
+            margin-top: 0;
+            transition: all 500ms;
+            &:hover {
+                font-weight: 700;
+                cursor: pointer;
+            }
+        }
+    }
+  }
+
+
+
 #row2 {
     margin: 10px auto;
     #subtext-layanan {
@@ -145,6 +209,7 @@ nav .brand-logo {
         transition: all 0.3s ease-in-out;
         margin: 15px auto;
         border-radius: 5px;
+        padding: 20px;
         &::after {
             opacity: 0;
         }
@@ -214,8 +279,11 @@ nav .brand-logo {
             transition: all 0.05s ease-out;
             .btn-langkah {
                 border: solid 1px $primary-color !important;
+                color: $primary-color;
+                transition: all 0.2s ease-in-out;
                 &:hover {
-                    filter: drop-shadow(0 3px 7px rgba(0,0,0,0.2));
+                    color: white;
+                    background-color: $primary-color;
                 }
             }
         }
@@ -230,7 +298,49 @@ nav .brand-logo {
     }
 }
 
+/*-----------------------------------------------------------Produk.html---------------------------------------------------------------*/
+.product-image {
+    width: 350px;
+    margin: 0 auto;
+}
 
+.subtext-produk {
+    line-height: 1.8;
+}
+
+.btn-product {
+    margin: 30px 0;
+    color: $primary-color;
+    border: 1px solid $primary-color !important;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+        color: white;
+    }
+}
+
+#btn-download {
+    color: white;
+    margin-left: 25px;
+}
+
+.dl-store {
+    width: 180px;
+}
+
+#product-row-container {
+    margin-bottom: 0;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.10);
+}
+.product-wrapper {
+    height: 500px;
+    margin: 100px 0;
+}
+.r-product-wrapper {
+    padding-right: 160px !important;
+}
+.l-product-wrapper {
+    padding-left: 160px !important; }
 
 
 /*-------------------------------------------------------------Mulai.html-------------------------------------------------------------*/

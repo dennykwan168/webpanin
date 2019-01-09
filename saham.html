@@ -17,7 +17,7 @@
         <nav class="z-depth-0">
             <div class="nav-wrapper white">
                 <a href="index.html" class="brand-logo">
-                    <img style="width:200px" src="pic/logo.jpg" alt="">
+                    <img style="width:200px" src="pic/logo.jpg" id="header-logo">
                 </a>
                 <a href="" data-target="mobile-menu" class="sidenav-trigger right"><i id="menu-icon" class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
@@ -74,111 +74,76 @@
     </ul>
 
     <!-------------------------------------------------------------Content----------------------------------------------------------------------->
-    <div class="row" id="row1">
-        <div class="container">
-            <div class="col s12 center-align">
-                <h2 style="font-weight:300;">Kembangkan uang anda dengan berinvestasi di
-                    <br><span class="extrabold primary-text">Saham</span><br class="mobile-break"> atau <br class="mobile-break"><span
-                        class="extrabold primary-text">Reksadana</span>
-                </h2>
-                <h5 class="light" style="margin:30px 0">Dengan berinvestasi biarkan <span class="bold primary-text">uang
-                        yang bekerja untuk anda</span></h5>
-                <div class="col s12" id="button-container">
-                    <a href="#popup" class="waves-effect waves-light btn-large bold">Mulai investasi</a>
-                </div>
+    <div class="row" id="product-row-container">
+        <div class="product-wrapper">
+            <div class="col s12 l6 center-align l-product-wrapper">
+                <img src="pic/product-stock.jpg" class="product-image">
+            </div>
+            <div class="col s12 l6 left-align r-product-wrapper">
+                <h3 class="bold">Transaksi Jual Beli Saham</h3>
+                <h5 class="subtext-produk">Mau jadi investor di pasar modal? Kami memberikan solusi bagi anda yang
+                    ingin bertransaksi saham di pasar modal.
+                    Transaksi saham dapat dilakukan secara online atau melalui perantara. Selain itu kami memberikan
+                    hasil riset kami secara GRATIS bagi nasabah kami.
+                    Tidak ada biaya bulanan atau biaya membership apapun. Segera mulai berinvestasi saham bersama kami.</h5>
+                <a href="#" class="btn-large btn-flat btn-product bold">BUKA REKENING SAHAM</a>
+                <H5 class="subtext-produk">Klik di <a href="#">sini</a> untuk melihat tarif kami.</H5>
+            </div>
+        </div>
+        <div class="product-wrapper">
+            <div class="col s12 l6 right-align l-product-wrapper">
+                <h3 class="bold">Trading Online</h3>
+                <h5 class="subtext-produk">Sekarang transaksi saham bisa di mana saja, kapan saja. Manfaatkan fasilitas
+                    online kami yang tersedia di berbagai platform.</h5>
+                <a href="#" class="btn-large btn-flat waves-effect btn-product bold">LIHAT PANDUAN</a>
+                <a href="#" class="btn-large z-depth-0 waves-effect btn-product bold dropdown-trigger" data-target="dl-dropdown"
+                    id="btn-download">DOWNLOAD
+                    <i class="material-icons right white-text">arrow_drop_down</i></a>
+                <ul id="dl-dropdown" class="dropdown-content">
+                    <li><a href="https://play.google.com/store/apps/details?id=id.co.post.postmaterial&hl=en"><img src="pic/playstore.jpg" class="dl-store"></a></li>
+                    <li><a href="https://itunes.apple.com/us/app/postmobile3/id1094664823"><img src="pic/appstore.jpg" class="dl-store"></a></li>
+                    <li><a href="https://drive.google.com/file/d/0B6kuhuzIk2StbTNPWnN5YzBhWWc/view"><img src="pic/windows.jpg" class="dl-store"></a></li>
+                    <li><a href="https://www.post-pro.co.id/"><img src="pic/web-badge.png" class="dl-store"></a></li>
+                </ul>
+            </div>
+            <div class="col s12 l6 center-align r-product-wrapper">
+                <img src="pic/product-online.jpg" class="product-image">
+            </div>
+        </div>
+        <div class="product-wrapper">
+            <div class="col s12 l6 center-align l-product-wrapper">
+                <img src="pic/product-margin.jpg" class="product-image">
+            </div>
+            <div class="col s12 l6 left-align r-product-wrapper">
+                <h3 class="bold">Margin Trading</h3>
+                <h5 class="subtext-produk">Manfaatkan fasilitas pembiayaan kami untuk transaksi saham yang lebih
+                    fleksibel. Ada baiknya anda pelajari
+                    dulu cara kerja dan risiko bertransaksi menggunakan fasilitas ini.</h5>
+                <a href="#" class="btn-large btn-flat waves-effect btn-product bold">PELAJARI LEBIH LANJUT</a>
+            </div>
+        </div>
+        <div class="product-wrapper">
+            <div class="col s12 l6 right-align l-product-wrapper">
+                <h3 class="bold">Jasa Initial Public Offering</h3>
+                <h5 class="subtext-produk">Initial Public Offering (IPO) cocok bagi anda pemilik perusahaan yang ingin
+                    mencari pendanaan
+                    untuk pengembangan bisnis atau meningkatkan kredibilitas perusahaan di mata publik. Tim kami akan
+                    membantu anda untuk
+                    mewujudkan hal tersebut. <br>Pelajari persyaratan perusahaan untuk melakukan IPO di Bursa Efek
+                    Indonesia.
+                </h5>
+                <a href="#" class="btn-large btn-flat waves-effect btn-product bold">Lihat Persyaratan IPO</a>
+            </div>
+            <div class="col s12 l6 center-align r-product-wrapper">
+                <img src="pic/product-ipo.jpg" class="product-image">
             </div>
         </div>
     </div>
 
-    <div id="popup" class="row overlay center-align">
-        <a class="close" href="#">&times;</a>
-        <h2 class="white-text center-align bold">Pilih jenis investasi</h2>
-        <div class="col s12 l6 center-align">
-
-                <div class="kartu-servis">
-                        <a href="saham.html"><h1 class="white-text">Saham</h1></a>
-                </div>
-
-        </div>
-        <div class="col s12 l6 center-align">
-            <div class="kartu-servis">
-                <h1 class="white-text">Reksa Dana</h1>
-            </div>
-        </div>
-    </div>
-
-    <div class="container" id="row2">
-        <div class="col s12 center-align">
-            <h2 class="bold">Layanan Kami</h2>
-            <h5 class="light" id="subtext-layanan">Dengan <span class="bold">pengalaman lebih dari 25 tahun</span>
-                kami memahami apa yang dibutuhkan oleh nasabah kami.</h5>
-        </div>
-    </div>
 
 
-    <div class="row" id="card-container">
-        <div class="col s12 l4 center-align">
-            <a href="saham.html">
-                <div class="kartu-servis waves-effect waves-blue">
-                    <img class="servis-icon" src="pic/stock.png">
-                    <h4 class="bold primary-text">Saham</h4>
-                </div>
-            </a>
-        </div>
-        <div class="col s12 l4 center-align">
-            <div class="kartu-servis waves-effect waves-blue">
-                <img class="servis-icon" src="pic/rd.png">
-                <h4 class="bold primary-text">Reksa Dana</h4>
-            </div>
-        </div>
-        <div class="col s12 l4 center-align">
-            <div class="kartu-servis waves-effect waves-blue">
-                <img class="servis-icon" src="pic/idea.png">
-                <h4 class="bold primary-text">Edukasi & Pelatihan</h4>
-            </div>
-        </div>
-    </div>
-    <div class="row" id="btn-wrapper">
-        <div class="col s12 center-align">
-            <a id="tombol-servis" href="#" class="btn-large waves-effect waves-light regular">Lebih Detail tentang
-                Servis Kami <i class="large material-icons right">keyboard_arrow_right</i> </a>
-        </div>
-    </div>
 
-    <div class="divide" id="gradient-bg">
-        <hr>
-    </div>
 
-    <div class="row center-align" id="row3">
-        <h3>Sudah siap untuk <br class="mobile-break"><span class="bold">mulai berinvestasi?</span></h3>
-        <h3>Cukup ikuti 4 langkah di bawah ini...</h3>
-        <div style="height:60px;"></div>
-
-        <div class="langkah-container">
-            <div class="col s12 l4 push-l2 langkah-wrapper white">
-                <h4 class="primary-text bold">Langkah #1</h4>
-                <p>Jika anda orang yang belum pernah berinvestasi di pasar modal, bacalah apa saja yang diperlukan
-                    untuk mulai berinvestasi di pasar modal.</p>
-                <a href="#" class="btn-langkah btn-flat btn-large bold">MULAI INVESTASI</a>
-            </div>
-            <div class="col s12 l4 offset-l2 langkah-wrapper white">
-                <h4 class="primary-text bold">Langkah #2</h4>
-                <p>Jika anda belum mempunyai rekening untuk berinvestasi, cek panduan lengkap kami untuk pembukaan
-                    rekening investor.</p>
-                <a href="rekening.html" class="btn-langkah btn-flat btn-large bold">PEMBUKAAN REKENING</a>
-            </div>
-            <div class="col s12 l4 push-l2 langkah-wrapper white">
-                <h4 class="primary-text bold">Langkah #3</h4>
-                <p>Tingkatkan wawasan anda tentang investasi di pasar modal dengan membaca blog kami.</p>
-                <a href="#" class="btn-langkah btn-flat btn-large bold">BACA BLOG</a>
-            </div>
-            <div class="col s12 l4 offset-l2 langkah-wrapper white">
-                <h4 class="primary-text bold">Langkah #4</h4>
-                <p>Ikuti media sosial kami untuk konten menarik mengenai perencanaan keuangan dan investasi.</p>
-                <a href="#" class="btn-langkah btn-flat btn-large bold">IKUTI KAMI</a>
-            </div>
-        </div>
-    </div>
 
 
     <!-----------------------------------------------Footer---------------------------------------------------------->
@@ -250,8 +215,9 @@
 
             $('.dropdown-trigger').dropdown({
                 coverTrigger: false,
-                hover: true,
-                constrainWidth: false
+                constrainWidth: false,
+                alignment: 'right',
+                hover: false
             });
 
             $('select').formSelect();
